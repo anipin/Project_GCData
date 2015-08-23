@@ -34,6 +34,9 @@ The following objects read data from the data files as described below:
 - featuresTrain -> train/x_train.txt
 - labelsTrain -> train/y_train.txt
 - subjectTrain -> train/subject_train.txt
+
+Other transformations which are done are as below:
+
 - Merging is done to merge the subject, labels and features for both test and train
 - Colnames of features are updated based on featureNames
 - The featurs, activity and subject data are merged into "mergeData" set 
@@ -50,10 +53,10 @@ It contains the mean and standard deviation of all measurements for each subject
 
 ##Activity Labels
 
-WALKING (value 1): subject was walking during the test
-WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
-WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
-SITTING (value 4): subject was sitting during the test
-STANDING (value 5): subject was standing during the test
-LAYING (value 6): subject was laying down during the test
+- WALKING (value 1): subject was walking during the test
+- WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
+- WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
+- SITTING (value 4): subject was sitting during the test
+- STANDING (value 5): subject was standing during the test
+- LAYING (value 6): subject was laying down during the test
 
