@@ -19,7 +19,8 @@ The data set used can be downloaded from <https://d396qusza40orc.cloudfront.net/
 - 'test/X_test.txt': Test set.
 - 'test/y_test.txt': Test labels.
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. 
-
+- 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. 
+- 
 ## Data transformations done using run_analysis.R
 
 Following are the transformations that were performed on the input dataset:
