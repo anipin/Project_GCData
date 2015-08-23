@@ -19,8 +19,8 @@ The data set used can be downloaded from <https://d396qusza40orc.cloudfront.net/
 - 'test/X_test.txt': Test set.
 - 'test/y_test.txt': Test labels.
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. 
-- 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. 
-- 
+
+
 ## Data transformations done using run_analysis.R
 
 Following are the transformations that were performed on the input dataset:
@@ -40,7 +40,7 @@ The following objects read data from the data files as described below:
 - Colnames with "mean" and "std" are extracted along with subject and activity columns to form new dataset -> extractedData
 - Activity column is replaced with info from activityLabels Data
 - Acronyms in variable names in `extractedData`, like 'Acc', 'Gyro', 'Mag', 't' and 'f' are replaced with descriptive labels such as 'Accelerometer', 'Gyroscpoe', 'Magnitude', 'Time' and 'Frequency'.
-- `tidyData` is created as with average for each activity and subject of `extractedData`.
+- `tidyData` is created with average for each activity and subject of `extractedData`.
 
 
 ##Output Data Set
