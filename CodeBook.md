@@ -20,6 +20,64 @@ The data set used can be downloaded from <https://d396qusza40orc.cloudfront.net/
 - 'test/y_test.txt': Test labels.
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. 
 
+###Description of variables
+
+- subject -> Identifier of a volunteer. There are 30 volunteers within an age bracket of 19-48 year
+- activity -> One of six activities: WALKING, WALKINGUPSTAIRS, WALKINGDOWNSTAIRS, SITTING, STANDING, LAYING
+- tBodyAccmeanX -> Mean of time domain signals from accelerometer subtracting the gravity in X direction.
+- tBodyAccmeanY ->  Mean of time domain signals from accelerometer subtracting the gravity in Y direction.
+- tBodyAccmeanZ -> Mean of time domain signals from accelerometer subtracting the gravity in Z direction.
+- tBodyAccstdX -> Standard deviation of time domain signals from accelerometer subtracting the gravity in X direction.
+- tBodyAccstdY -> Standard deviation of time domain signals from accelerometer subtracting the gravity in Y direction.
+- tBodyAccstdZ ->  Standard deviation of time domain signals from accelerometer subtracting the gravity in Z direction.
+- tGravityAccmeanX -> Mean of time domain signals from accelerometer in standard gravity units in X direction.
+- tGravityAccmeanY -> Mean of time domain signals from accelerometer in standard gravity units in Y direction.
+- tGravityAccmeanZ -> Mean of time domain signals from accelerometer in standard gravity units in Z direction.
+- tGravityAccstdX -> Standard deviation of time domain signals from accelerometer in standard gravity units in X direction.
+- tGravityAccstdY -> Standard deviation of time domain signals from accelerometer in standard gravity units in Y direction.
+- tGravityAccstdZ -> Standard deviation of time domain signals from accelerometer in standard gravity units in Z direction.
+- tBodyAccJerkmeanX -> Mean of time domain Jerk signals from accelerometer subtracting the gravity in X direction.
+- tBodyAccJerkmeanY -> Mean of time domain Jerk signals from accelerometer subtracting the gravity in Y direction.
+- tBodyAccJerkmeanZ -> Mean of time domain Jerk signals from accelerometer subtracting the gravity in Z direction.
+- tBodyAccJerkstdX -> Standard deviation of time domain Jerk signals from accelerometer subtracting the gravity in X direction.
+- tBodyAccJerkstdY -> Standard deviation of time domain Jerk signals from accelerometer subtracting the gravity in Y direction.
+- tBodyAccJerkstdZ -> Standard deviation of time domain Jerk signals from accelerometer subtracting the gravity in Z direction.
+- tBodyGyromeanX -> Mean of time domain signals from gyroscope in X direction.
+- tBodyGyromeanY -> Mean of time domain signals from gyroscope in Y direction.
+- tBodyGyromeanZ -> Mean of time domain signals from gyroscope in Z direction.
+- tBodyGyrostdX -> Standard deviation of time domain signals from gyroscope in X direction.
+- tBodyGyrostdY -> Standard deviation of time domain signals from gyroscope in Y direction.
+- tBodyGyrostdZ -> Standard deviation of time domain signals from gyroscope in Z direction.
+- tBodyGyroJerkmeanX -> Mean of time domain Jerk signals from gyroscope in X direction.
+- tBodyGyroJerkmeanY -> Mean of time domain Jerk signals from gyroscope in Y direction.
+- tBodyGyroJerkmeanZ -> Mean of time domain Jerk signals from gyroscope in Z direction.
+- tBodyGyroJerkstdX -> Standard deviation of time domain Jerk signals from gyroscope in X direction.
+- tBodyGyroJerkstdY -> Standard deviation of time domain Jerk signals from gyroscope in Y direction.
+- tBodyGyroJerkstdZ -> Standard deviation of time domain Jerk signals from gyroscope in Z direction.
+- tBodyAccMagmean -> Mean of the magnitude of time domain signals from accelerometer subtracting the gravity.
+- tBodyAccMagstd -> Standard deviation of the magnitude of time domain signals from accelerometer subtracting the gravity.
+- tGravityAccMagmean -> Mean of the magnitude of time domain signals from accelerometer in standard gravity units.
+- tGravityAccMagstd -> Standard deviation of the magnitude of time domain signals from accelerometer in standard gravity units.
+- tBodyAccJerkMagmean ->  Mean of the magnitude of time domain Jerk signals from accelerometer subtracting the gravity.
+- tBodyAccJerkMagstd -> Standard deviation of the magnitude of time domain Jerk signals from accelerometer subtracting the gravity.
+- tBodyGyroMagmean -> Mean of the magnitude of time domain signals from gyroscope.
+- tBodyGyroMagstd -> Standard deviation of the magnitude of time domain signals from gyroscope.
+- tBodyGyroJerkMagmean -> Mean of the magnitude of time domain Jerk signals from gyroscope.
+- tBodyGyroJerkMagstd -> Standard deviation of the magnitude of time domain Jerk signals from gyroscope.
+- fBodyAccmeanX -> Mean of Fast Fourier Transform (FFT) of signals from accelerometer subtracting the gravity in X direction.
+- fBodyAccmeanY -> Mean of Fast Fourier Transform (FFT) of signals from accelerometer subtracting the gravity in Y direction.
+- fBodyAccmeanZ -> Mean of Fast Fourier Transform (FFT) of signals from accelerometer subtracting the gravity in Z direction.
+- fBodyGyromeanX -> Mean of Fast Fourier Transform (FFT) of signals from gyroscope in X direction.
+- fBodyGyromeanY -> Mean of Fast Fourier Transform (FFT) of signals from gyroscope in Y direction.
+- fBodyGyromeanZ -> Mean of Fast Fourier Transform (FFT) of signals from gyroscope in Z direction.
+- fBodyGyrostdX -> Standard deviation of Fast Fourier Transform (FFT) of signals from gyroscope in X direction.
+- fBodyGyrostdY -> Standard deviation of Fast Fourier Transform (FFT) of signals from gyroscope in Y direction.
+- fBodyGyrostdZ Standard deviation of Fast Fourier Transform (FFT) of signals from gyroscope in Z direction.
+- fBodyBodyGyroMagmean -> Mean of the magnitude of Fast Fourier Transform (FFT) of signals from gyroscope.
+- fBodyBodyGyroMagstd -> Standard deviation of the magnitude of Fast Fourier Transform (FFT) of signals from gyroscope.
+- fBodyBodyGyroJerkMagmean ->  Mean of the magnitude of Fast Fourier Transform (FFT) of Jerk signals from gyroscope.
+- fBodyBodyGyroJerkMagstd -> Standard deviation of the magnitude of Fast Fourier Transform (FFT) of Jerk signals from gyroscope.
+
 
 ## Data transformations done using run_analysis.R
 
